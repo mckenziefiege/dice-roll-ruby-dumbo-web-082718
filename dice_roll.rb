@@ -5,5 +5,5 @@
 def roll
  #rand(1..6) # code goes here
  die = [1, 2, 3, 4, 5, 6]
- die.rand
+ rand(die)
 end
